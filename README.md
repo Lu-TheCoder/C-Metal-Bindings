@@ -11,6 +11,6 @@ Kindly report any issues if you encounter them
 - No Full support for all Metal functions and data structures 
 
 # TODO
-[] Configure the Makefile to build a Dynamic or Static library
-[] Add Full support for the entire Metal API (its a long stretch but hey!!)
+- Configure the Makefile to build a Dynamic or Static library
+- Add Full support for the entire Metal API (its a long stretch but hey!!)
   
