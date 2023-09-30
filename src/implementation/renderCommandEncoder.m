@@ -5,7 +5,7 @@ CF_RETURNS_RETAINED
 MT_API_AVAILABLE(mt_macos(10.11), mt_ios(8.0))
 MtRenderCommandEncoder*
 mtNewRenderCommandEncoder(MtCommandBuffer *cmdb, MtRenderPassDescriptor *pass) {
-  return [(id<MTLCommandBuffer>)cmdb renderCommandEncoderWithDescriptor: pass];
+  return [(id<MTLCommandBuffer>)cmdb renderCommandEncoderWithDescriptor: (MTLRenderPassDescriptor*)pass];
 }
 
 MT_API_AVAILABLE(mt_macos(10.11), mt_ios(8.0))

@@ -1,7 +1,8 @@
 #-Wall -Werror
 COMPILER_FLAGS:= -Wall -Werror -Wvla -ObjC
 INCLUDE_FLAGS:= -Isrc
-LINKER_FLAGS:= -lobjc -framework Cocoa -framework Foundation -framework Metal
+#LINKER_FLAGS:= -lobjc -framework Cocoa -framework Foundation -framework Metal
+LINKER_FLAGS:= -lobjc -framework QuartzCore -framework Cocoa -framework Foundation -framework Metal
 SRC_FILES:= $(shell find src -type f \( -name "*.c" -o -name "*.m" \))
 
 all: build run

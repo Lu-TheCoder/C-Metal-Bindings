@@ -8,6 +8,8 @@ It is still bare bones and still under heavy maintainance and thus support for m
 Kindly report any issues if you encounter them
 
 ## Known Issues
+- Command Encoder is nil (Still investigating)
+- drawable is nil (also investigating)
 - No Full support for all Metal functions and data structures 
 
 # TODO
